@@ -1,9 +1,8 @@
 # ![Thanks to ColeRule for making this awesome banner!](http://g2f.nl/0qheg35 "Thanks to ColeRule for making this awesome banner!") 
 
 ## Introduction
-Hide and seek is a popular game mode on Minecraft that allows you to hide as blocks and disguise as normal props from seekers. This plugin allows you to do that but with a lot more features added on such as: shops, stats etc...
-
-This plugin has been heavily inspired from the gamemode "PropHunt", from the game, "Garry's Mod".
+BlockChase est un mode de jeu revisité du mini-jeu "BlockHunt" ou "Prophunt", qui sont eux même une version revisité du mode de jeu "Hide and seek"".
+Ce mode de jeu permet au joueur de ce transformer en bloc afin de se cacher des chercheurs. This plugin allows you to do that but with a lot more features added on such as: shops, stats etc...
 
 
 **Download and try this plugin out for yourself!**
@@ -93,7 +92,6 @@ alt="" width="240" height="180" border="10" /></a>
 ## Donate
 Do you have some spare money lying around? Support BlockHunt and donate, as this will give us more encouragement to produce new updates. It will also show us how interested people are in this plugin!
 
-[![](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RWASM5GV7GYTU)
 
 Thank you! <3
 
