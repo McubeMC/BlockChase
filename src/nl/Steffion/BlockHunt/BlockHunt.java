@@ -460,7 +460,7 @@ public class BlockHunt extends JavaPlugin implements Listener {
 
 									MiscDisguise disguise = new MiscDisguise(
 											DisguiseType.FALLING_BLOCK, block
-													.getTypeId(), block
+													.getType(), block
 													.getDurability());
 									DisguiseAPI.disguiseToAll(arenaPlayer,
 											disguise);
@@ -547,7 +547,7 @@ public class BlockHunt extends JavaPlugin implements Listener {
 							if (arena.timer == arena.gameTime
 									- arena.timeUntilHidersSword) {
 								ItemStack sword = new ItemStack(
-										Material.WOOD_SWORD, 1);
+										Material.WOODEN_SWORD, 1);
 								sword.addUnsafeEnchantment(
 										Enchantment.KNOCKBACK, 1);
 								for (Player arenaPlayer : arena.playersInArena) {
@@ -637,12 +637,12 @@ public class BlockHunt extends JavaPlugin implements Listener {
 															Material.WATER)
 													|| pBlock
 															.getType()
-															.equals(Material.STATIONARY_WATER)) {
+															.equals(Material.WATER)) {
 												if (pBlock.getType().equals(
 														Material.WATER)
 														|| pBlock
 																.getType()
-																.equals(Material.STATIONARY_WATER)) {
+																.equals(Material.WATER)) {
 													W.hiddenLocWater.put(
 															player, true);
 												} else {
@@ -666,7 +666,7 @@ public class BlockHunt extends JavaPlugin implements Listener {
 													}
 
 													block.addUnsafeEnchantment(
-															Enchantment.DURABILITY,
+															Enchantment.UNBREAKING,
 															10);
 													player.playSound(pLoc,
 															Sound.ENTITY_EXPERIENCE_ORB_PICKUP,
